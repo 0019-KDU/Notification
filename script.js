@@ -1,4 +1,4 @@
-const serverKey = "YOUR_SERVER_KEY";
+const serverKey = "oJfOtyzPdRkDsRjCqy-t87yLZ-30lUdBpGRBrvhb8tM";
 const fcmEndpoint = "https://fcm.googleapis.com/fcm/send";
 
 document
