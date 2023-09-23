@@ -6,7 +6,8 @@ document
   .addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent the form from submitting traditionally
 
-    const recipient = document.getElementById("recipient").value;
+    //const recipient = document.getElementById("recipient").value;
+    const recipient =feIQ7iPETc6XRIahlvzM8C:APA91bGmqrtgUSsdZvOMk97K32QJRizAgFVcKYCjyahPHewSDdHjrDZgOYLGdSVXtuINgHVBPu2WLaCzAFS0-DlhlalH6br5aGQO0GCLEiAvaoLVYYN8MiXWqZcrjfJpr1wAGuEAJ34A
     const messageText = document.getElementById("message").value;
 
     const message = {
