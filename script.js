@@ -1,4 +1,4 @@
-const serverKey = "oJfOtyzPdRkDsRjCqy-t87yLZ-30lUdBpGRBrvhb8tM";
+const serverKey = "feIQ7iPETc6XRIahlvzM8C:APA91bGmqrtgUSsdZvOMk97K32QJRizAgFVcKYCjyahPHewSDdHjrDZgOYLGdSVXtuINgHVBPu2WLaCzAFS0-DlhlalH6br5aGQO0GCLEiAvaoLVYYN8MiXWqZcrjfJpr1wAGuEAJ34A";
 const fcmEndpoint = "https://fcm.googleapis.com/fcm/send";
 
 document
