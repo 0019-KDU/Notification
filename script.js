@@ -47,7 +47,7 @@ async function fetchTokensFromFirestore() {
   const tokens = [];
 
   // Use the Firebase JavaScript SDK to fetch tokens from Firestore
-  const db = firebase.firestore();
+  const db = firebase.firestore(); // Make sure Firebase is properly initialized
   const tokensCollection = db.collection("tokens");
 
   // Assuming you have a document in the 'tokens' collection that contains an array of tokens
