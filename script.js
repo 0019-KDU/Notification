@@ -53,7 +53,7 @@ async function fetchTokensFromFirestore() {
     projectId: "lego-3fe7c",
     storageBucket: "lego-3fe7c.appspot.com",
     messagingSenderId: "653230705538",
-    appId: "1:653230705538:web:db66e4e2f206d1f5a2dd9b",
+    appId: "1:653230705538:web:1c380451712cb5caa2dd9b",
   };
   // Initialize Firebase
   if (!firebase.apps.length) {
