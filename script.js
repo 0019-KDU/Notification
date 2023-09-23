@@ -62,16 +62,12 @@ async function fetchTokensFromFirestore() {
 
   const db = firebase.firestore();
   const tokensCollection = db.collection("tokens");
-
+  const tokenData = [];
   // Assuming you have a document in the 'tokens' collection that contains an array of tokens
-  const tokensDocument = await tokensCollection.doc("your_document_id").get();
-
   if (tokensDocument.exists) {
-    const tokenData = tokensDocument.data();
-    if (tokenData && tokenData.tokens) {
-      tokens.push(...tokenData.tokens);
+    for (const items in tokensCollection.docs) {
+      tokenData.add(items.id);
     }
   }
-
-  return tokens;
+  return tokenData;
 }
