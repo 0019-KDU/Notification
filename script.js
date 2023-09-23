@@ -47,6 +47,18 @@ async function fetchTokensFromFirestore() {
   const tokens = [];
 
   // Initialize Firebase with your config
+  const firebaseConfig = {
+    apiKey: "AIzaSyAhNHaL-JcSUqHrBZd28syW_qLSHFK-edY",
+    authDomain: "lego-3fe7c.firebaseapp.com",
+    projectId: "lego-3fe7c",
+    storageBucket: "lego-3fe7c.appspot.com",
+    messagingSenderId: "653230705538",
+    appId: "1:653230705538:web:db66e4e2f206d1f5a2dd9b",
+  };
+  // Initialize Firebase
+  if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
+  }
 
   const db = firebase.firestore();
   const tokensCollection = db.collection("tokens");
